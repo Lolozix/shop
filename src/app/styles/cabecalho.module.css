@@ -2,12 +2,12 @@
     background-color: #f8f8f8;
     padding: 10px;
     display: flex;
-    align-items: center;
+   
   
 }
 
 .titulo{
-      flex-direction: row;
+  text-align: center;
      
 }
 
@@ -28,5 +28,17 @@
 
 .botao{
     border-radius: 15px;
-   
+    text-align: center;
+    background-color: #4CAF50; /* Verde */
+    border: none; /* Remove borda */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remove sublinhado do texto */
+    display: inline-block; /* Exibição em linha */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem externa */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    border-radius: 12px; /* Bordas arredondadas */
+    transition-duration: 0.4s;
 }
