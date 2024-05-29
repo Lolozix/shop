@@ -1,0 +1,32 @@
+.menu{
+    background-color: #f8f8f8;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  
+}
+
+.titulo{
+      flex-direction: row;
+     
+}
+
+.lista{
+   
+    display: flex;
+    align-items: center;
+}
+
+.li{
+    list-style-type: none;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.botao{
+    border-radius: 15px;
+   
+}

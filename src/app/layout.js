@@ -1,4 +1,4 @@
-
+import Cabecalho from "./components/Cabecalho.js";
 
 export const metadata = {
   title: "Meu Shop.com",
@@ -8,7 +8,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Cabecalho/>
+        {children}
+      
+      </body>
     </html>
   );
 }
