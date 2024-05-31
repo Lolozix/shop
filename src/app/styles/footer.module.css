@@ -1,13 +1,12 @@
-.menu {
+.rodape {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 10px;
     background-color: #f0f0f0;
-  }
-  
-  .titulo {
-    margin: 0;
-    text-align: center; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
   
   .lista {
@@ -20,20 +19,6 @@
   .li {
     margin-right: 20px;
     cursor: pointer;
-  }
-  
-  .botao {
-    padding: 10px 20px;
-    background-color: #5e5e5e;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: end;
-  }
-  
-  .botao:hover {
-    background-color: #620299;
   }
   
   .link {

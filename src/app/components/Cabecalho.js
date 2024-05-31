@@ -4,6 +4,7 @@ import styles from "../styles/cabecalho.module.css";
 
 export default function Cabecalho(){
     return(
+      
       <header className={styles.menu}>
         <Image
     width={100}
@@ -30,5 +31,6 @@ export default function Cabecalho(){
        <button className={styles.botao}>Adicionar um Novo Produto</button>
        </nav>
       </header>
+      
     )
 }
