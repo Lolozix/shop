@@ -1,27 +1,44 @@
+/* estilo.css */
+
+/* Estilos para o rodapé */
 .rodape {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    background-color: #f0f0f0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
+  background-color: #2a0046;
+  color: #ffffff;
+  padding: 20px;
   
-  .lista {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .li {
-    margin-right: 20px;
-    cursor: pointer;
-  }
-  
-  .link {
-    text-decoration: none;
-    color: inherit;
-  }
+  display: flex; /* Adicione esta linha para alinhar os elementos lado a lado */
+  justify-content: space-between; /* Distribui os elementos igualmente na linha */
+}
+
+/* Estilos para os elementos dentro do rodapé */
+.rodape h1 {
+  font-size: 24px;
+}
+
+.rodape .box {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.rodape .ul {
+  list-style: none;
+  padding: 0;
+}
+
+.rodape .ul li {
+  margin-bottom: 10px;
+}
+
+.rodape .link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.rodape .link:hover {
+  color: #686868;
+}
+
+.rodape .parag {
+  text-align: justify;
+}
+

@@ -9,7 +9,7 @@ export default function Cabecalho(){
         <Image
     width={100}
     height={100}
-    src={"https://cdn-icons-png.flaticon.com/128/743/743131.png"}
+    src={"https://cdn-icons-png.flaticon.com/128/7878/7878683.png"}
        />
        <nav>
        <h1 className={styles.titulo}>Juloca store</h1> 

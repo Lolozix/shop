@@ -1,8 +1,10 @@
 .menu {
+  color: aliceblue;
     display: flex;
     align-items: center;
     padding: 10px;
-    background-color: #f0f0f0;
+    background-color: #2a0046;
+    box-shadow: #2a0046 0px 54px 55px, #2a0046 0px -12px 30px, #252525 0px 4px 6px, #252525 0px 12px 13px, #252525 0px -3px 5px;
   }
   
   .titulo {
