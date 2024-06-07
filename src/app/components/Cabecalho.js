@@ -27,7 +27,7 @@ export default function Cabecalho(){
           </Link>
 
        </ul>
-
+      <input className={styles.input}></input>
        <button className={styles.botao}>Adicionar um Novo Produto</button>
        </nav>
       </header>
