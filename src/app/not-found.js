@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import "/Todo.css";
+import "./styles/Todo.css";
 import Image from "next/image";
 
 export default function NotFound() {

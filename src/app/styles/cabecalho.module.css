@@ -1,50 +1,51 @@
 .menu {
   color: aliceblue;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    background-color: #2a0046;
-    box-shadow: #2a0046 0px 54px 55px, #2a0046 0px -12px 30px, #252525 0px 4px 6px, #252525 0px 12px 13px, #252525 0px -3px 5px;
-  }
-  .input{
-    
-      background-color: #f2f2f2;
-      border: 1px solid #ddd;
-      padding: 8px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #2a0046;
+  box-shadow: #838383 0px 14px 25px, #7f2ebd 0px -12px 10px;
+}
+.input {
  
-  }
-  .titulo {
-    margin: 0;
-    text-align: center; 
-  }
-  
-  .lista {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .li {
-    margin-right: 20px;
-    cursor: pointer;
-  }
-  
-  .botao {
-    padding: 10px 20px;
-    background-color: #5e5e5e;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: end;
-  }
-  
-  .botao:hover {
-    background-color: #620299;
-  }
-  
-  .link {
-    text-decoration: none;
-    color: inherit;
-  }
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 8px;
+
+}
+
+.titulo {
+  margin: 0;
+  text-align: center;
+}
+
+.lista {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.botao {
+  padding: 10px 20px;
+  background-color: #5e5e5e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: end;
+}
+
+.botao:hover {
+  background-color: #620299;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}

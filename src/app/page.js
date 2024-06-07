@@ -4,6 +4,6 @@ import Main from "./components/Main.js"
 
 export default async function Home() {
   return (
-  <Main/>
+    <Main />
   );
 }

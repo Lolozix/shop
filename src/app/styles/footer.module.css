@@ -5,9 +5,8 @@
   background-color: #2a0046;
   color: #ffffff;
   padding: 20px;
-  
-  display: flex; /* Adicione esta linha para alinhar os elementos lado a lado */
-  justify-content: space-between; /* Distribui os elementos igualmente na linha */
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Estilos para os elementos dentro do rodapé */
@@ -41,4 +40,3 @@
 .rodape .parag {
   text-align: justify;
 }
-
