@@ -1,13 +1,15 @@
+/*Estilo para Modificar o Cabeçal*/
 .menu {
   color: aliceblue;
   display: flex;
   align-items: center;
   padding: 10px;
-  background-color: #2a0046;
+  background-color: #37035a;
   box-shadow: #838383 0px 14px 25px, #7f2ebd 0px -12px 10px;
 }
+
 .input {
- 
+
   background-color: #f2f2f2;
   border: 1px solid #ddd;
   padding: 8px;
@@ -27,7 +29,7 @@
 }
 
 .li {
-  margin-right: 20px;
+  margin-left: 20px;
   cursor: pointer;
 }
 

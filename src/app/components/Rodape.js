@@ -1,10 +1,17 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from "../styles/footer.module.css";
 
 export default function Rodape() {
     return (
         <footer className={styles.rodape}>
             <h1 className={styles.p}>JULOCA.STORE</h1>
+            <Image className={styles.img}
+        width={150}
+        height={150}
+        src={" https://i.pinimg.com/736x/6e/2a/a4/6e2aa483f5da8dbce9c6263fb2298a41.jpg"}
+         />
+           
             <div className={styles.box}>
                 <ul className={styles.ul}>
                     <Link className={styles.link} href="/suporte">

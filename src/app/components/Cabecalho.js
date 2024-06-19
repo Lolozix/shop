@@ -16,13 +16,21 @@ export default function Cabecalho() {
         <ul className={styles.lista}>
           <Link className={styles.link} href="/carrinho">
             <li className={styles.li}>
-              Carrinho 🛒
+            <Image
+                width={45}
+                height={45}
+                src={"https://cdn-icons-png.freepik.com/512/8249/8249306.png"}
+              />
             </li>
           </Link>
 
           <Link className={styles.link} href="/contato">
             <li className={styles.li}>
-              Contato ☎
+            <Image
+                width={45}
+                height={45}
+                src={"https://cdn-icons-png.freepik.com/512/12643/12643485.png"}
+              />
             </li>
           </Link>
 
