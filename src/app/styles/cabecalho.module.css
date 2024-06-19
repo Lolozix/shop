@@ -1,12 +1,24 @@
+/*Estilo para Modificar o Cabeçal*/
 .menu {
   color: aliceblue;
   display: flex;
   align-items: center;
   padding: 10px;
+<<<<<<< HEAD
   background-color: #CD5C5C;
   box-shadow: #800000 0px 14px 25px, #800000 0px -12px 10px;
+=======
+  background-color: #37035a;
+  box-shadow: #838383 0px 14px 25px, #7f2ebd 0px -12px 10px;
+>>>>>>> adb4346a41e52b9fb85d15d8531c3d29756a099f
 }
+
 .input {
+<<<<<<< HEAD
+=======
+
+  background-color: #f2f2f2;
+>>>>>>> adb4346a41e52b9fb85d15d8531c3d29756a099f
   border: 1px solid #ddd;
   padding: 8px;
 
@@ -25,7 +37,7 @@
 }
 
 .li {
-  margin-right: 20px;
+  margin-left: 20px;
   cursor: pointer;
 }
 

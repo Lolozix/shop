@@ -1,21 +1,43 @@
+<<<<<<< HEAD
 .main{
+=======
+.main {
+>>>>>>> adb4346a41e52b9fb85d15d8531c3d29756a099f
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
+<<<<<<< HEAD
     background-color: #FFF5EE;
 }
 .card{
     margin-top: 10px;
+=======
+    background: rgb(137, 108, 153);
+}
+
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+>>>>>>> adb4346a41e52b9fb85d15d8531c3d29756a099f
     display: flex;
     width: 400px;
     height: auto;
-    flex-direction: column ;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     background-color: #A52A2A;
     border-radius: 24px;
     box-shadow:  #000000 1.95px 1.95px 2.6px;
 }
+=======
+    background-color: rgb(255, 255, 255);
+    border: 2px outset #000;
+    border-radius: 24px;
+    box-shadow: #494949 1.95px 1.95px 2.6px;
+}
+
+>>>>>>> adb4346a41e52b9fb85d15d8531c3d29756a099f

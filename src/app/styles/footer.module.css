@@ -37,3 +37,9 @@
 .rodape .parag {
   text-align: justify;
 }
+
+.img{
+
+ border-radius: 25%;
+  margin-left: 22px;
+}
