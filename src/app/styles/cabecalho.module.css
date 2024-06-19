@@ -3,12 +3,10 @@
   display: flex;
   align-items: center;
   padding: 10px;
-  background-color: #2a0046;
-  box-shadow: #838383 0px 14px 25px, #7f2ebd 0px -12px 10px;
+  background-color: #CD5C5C;
+  box-shadow: #800000 0px 14px 25px, #800000 0px -12px 10px;
 }
 .input {
- 
-  background-color: #f2f2f2;
   border: 1px solid #ddd;
   padding: 8px;
 
@@ -33,7 +31,7 @@
 
 .botao {
   padding: 10px 20px;
-  background-color: #5e5e5e;
+  background-color: #800080;
   color: white;
   border: none;
   border-radius: 5px;

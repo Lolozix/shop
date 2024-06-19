@@ -1,15 +1,12 @@
-/* estilo.css */
-
-/* Estilos para o rodapé */
 .rodape {
-  background-color: #2a0046;
+  background-color: #CD5C5C;
   color: #ffffff;
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  box-shadow: #800000 0px 14px 25px, #800000 0px -12px 10px;
 }
 
-/* Estilos para os elementos dentro do rodapé */
 .rodape h1 {
   font-size: 24px;
 }

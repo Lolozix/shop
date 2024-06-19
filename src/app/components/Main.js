@@ -1,13 +1,39 @@
+"use client"
 import Link from 'next/link';
 import Image from 'next/image';
+import { useState, useEffect } from 'react';
 import styles from "../styles/main.module.css";
 
-export default async function Main() {
-  const response = await fetch('https://fakestoreapi.com/products/')
-  const data = await response.json();
+export default function Main() {
+  const [listProduct, setProduct] = useState([]);
+  
+  useEffect(() => {
+    const getProduct = async() => {
+      const response = await fetch('https://fakestoreapi.com/products/')
+      const data = await response.json();
+      setProduct(data);
+    }
+    getProduct();
+  }, [])
+
+    const orderAZ = () => {
+      const listAux = [...listProduct].sort((a,b) =>
+        a.title.localCompare(b.title) );
+      setProduct(listAux);
+    }
+
+    const orderAZ = () => {
+      let listAux.reverse();
+      setProduct(listAux);
+    }
+
+    if( listProduct[0] == null){
+      return <Spinner/>
+    }
+
   return (
     <main className={styles.main}>
-      {data.map((products) =>
+      {listProduct.map((products) =>
         <div className={styles.card} key={products.id}>
           <h1>{products.title.slice(0, 16) + "..."}</h1>
           <Image
