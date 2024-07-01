@@ -3,22 +3,30 @@ import Link from 'next/link';
 import Image from 'next/image';
 import styles from "../styles/main.module.css";
 import { useEffect, useState } from 'react';
-import Spinner from './Spinner.js'
+import Spinner from "./Spinner"
+import ErrorFetch from './ErrorFatch';
 
 export default function Main() {
   const [listProduct, setProduct] = useState([]);
   const [listComplete, setListComplet] = useState([]);
   const [textSearch, setTextSearch] = useState("");
+  const [isError, setIsError] = useState(false)
 
   useEffect(() => {
     const getProduct = async () => {
-      const response = await fetch('https://fakestoreapi.com/products/')
-      const data = await response.json();
-      setProduct(data);
-      setListComplet(data)
+      try {
+        const resposta = await fetch("https://fakestoreapi.com/products/")
+        const data = await resposta.json();
+        setProduct(data)
+        setListComplet(data)
+      }
+      catch {
+        setIsError(true)
+      }
     }
-    getProduct();
+    getProduct()
   }, [])
+
 
   const orderAz = () => {
     const listAux = [...listProduct].sort((a, b) => a.title.localeCompare(b.title));
@@ -42,19 +50,20 @@ export default function Main() {
 
     setProduct(listPre);
   }
-
+  
   const search = (text) => {
     setTextSearch(text)
-
-    if (text == "") {
-      setListComplet(listComplete);
+    if (text.trim() == "") {
+      setProduct(listComplete);
       return
     }
-     const newList = listProduct.filter((product) =>  
-      product.title.toUpperCase().trim().includes(textSearch.toUpperCase().trim())
-      );
-     setListComplet(newList);
+    const novaLista = listProduct.filter((product) => product.title.toUpperCase().trim().includes(textSearch.toUpperCase().trim()))
+    setProduct(novaLista);
   }
+
+if(isError == true){
+  return <ErrorFetch/>
+}
 
   if (listComplete[0] == null) {
     return <Spinner />
