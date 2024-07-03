@@ -96,6 +96,10 @@ if(isError == true){
               src={products.image}
             />
             <h3>{products.price}</h3>
+            <Link href={"/product/" + products.id}>
+              <button>Ver mais</button>
+            </Link>
+
             <p>{products.description.slice(0, 25) + "..."}</p>
             <p>{products.category}</p>
 
